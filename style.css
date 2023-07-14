@@ -1,0 +1,32 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.container{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    grid-template-rows:100px 600px 200px;
+    height:90vh;
+    margin:20px auto;
+}
+header{
+    background:hotpink;
+    grid-column:span 5;
+}
+.blog{
+    background:orangered;
+    grid-column:span 1;
+}
+main{
+    background:yellowgreen;
+    grid-column:span 3;
+}
+.sidebar{
+    background:orange;
+    grid-row:span 2;
+}
+footer{
+    background:slateblue;
+    grid-column:span 4;
+}
